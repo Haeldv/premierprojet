@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Elementor Website Builder &#8211; More than Just a Page Builder - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-08-21 22:25:13+0000\n"
+"PO-Revision-Date: 2024-08-28 14:33:10+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -44,6 +44,10 @@ msgstr "Liens d’image"
 msgid "Single Chat"
 msgstr "Discussion unique"
 
+#: modules/floating-buttons/module.php:354
+msgid "Add a Floating button so your users can easily get in touch!"
+msgstr "Ajoutez un bouton flottant pour que vos utilisateurs et utilisatrices puissent facilement prendre contact avec vous !"
+
 #: modules/floating-buttons/module.php:283
 msgid "Entire Site"
 msgstr "Tout le site"
@@ -55,6 +59,10 @@ msgstr "Instances"
 #: modules/floating-buttons/module.php:209
 msgid "Click Tracking"
 msgstr "Suivi des clics"
+
+#: modules/floating-buttons/module.php:60
+msgid "Boost visitor engagement with Floating Buttons. The Floating Button template library offers a variety of interactive one-click contact options, highlighted links, and calls to action to increase your website conversions."
+msgstr "Augmentez l’engagement des internautes grâce aux boutons flottants. Dans la bibliothèque de modèles de boutons flottants, vous trouverez une variété d’options de contact interactives en un clic, de liens mis en évidence et de CTA pour augmenter les taux de conversion de votre site."
 
 #: modules/floating-buttons/documents/floating-buttons.php:100
 #: modules/floating-buttons/module.php:352
@@ -68,6 +76,10 @@ msgstr "Définir dans l’ensemble du site"
 #: modules/floating-buttons/documents/floating-buttons.php:85
 msgid "Remove From Entire Site"
 msgstr "Retirer de l’ensemble du site"
+
+#: modules/floating-buttons/documents/floating-buttons.php:27
+msgid "After publishing this widget, you will be able to set it as visible on the entire site in the Admin Table."
+msgstr "Une fois ce widget publié, vous pourrez le rendre visible sur l’ensemble de votre site depuis le tableau d’administration."
 
 #: modules/floating-buttons/classes/render/contact-buttons-render-base.php:99
 msgid "Close Links Popup"
@@ -84,6 +96,10 @@ msgstr "Fenêtre de liens"
 #: modules/floating-buttons/base/widget-contact-button-base.php:3023
 msgid "CSS"
 msgstr "CSS"
+
+#: modules/floating-buttons/base/widget-contact-button-base.php:3010
+msgid "Responsive visibility will take effect only on preview mode or live page, and not while editing in Elementor."
+msgstr "La visibilité responsive sera effective uniquement en mode prévisualisation ou sur la page en direct, et non pas lors de la modification dans Elementor."
 
 #: modules/floating-buttons/base/widget-contact-button-base.php:2986
 msgid "Full Width on Mobile"
