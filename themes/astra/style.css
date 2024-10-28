@@ -60,3 +60,16 @@ Astra local fonts feature is based on Webfonts Loader by WordPress Themes Team (
 Licensed under MIT ( https://github.com/WPTT/webfont-loader/blob/master/LICENSE )
 
 /* Note: The CSS files are loaded from assets/css/ folder. */
+.elementor-widget-masteraddons_wpforms .wpforms-submit {
+    background-color: #DC9F96 !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: #fff !important;
+}
+
+.elementor-widget-masteraddons_wpforms .wpforms-submit:hover {
+    color: #DC9F96 !important;
+    background-color: #DC9F96 !important;
+    border: none !important;
+    box-shadow: none !important;
+}

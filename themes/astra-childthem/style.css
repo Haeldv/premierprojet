@@ -9,3 +9,137 @@ Version: 4.8.0.1724540160
 Updated: 2024-08-25 00:56:00
 
 */
+
+
+.wpforms-submit {
+  background-color: #DC9F96 !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: #fff !important;
+}
+
+body .ast-builder-menu .main-navigation>ul>li:last-child a {
+  margin-right: 0;
+  font-family: 'Syne';
+  font-size: 16px;
+}
+
+:root {
+  --wpforms-button-background-color: #C02E44 !important;
+  
+}
+
+
+body div.wpforms-container-full .wpforms-form textarea {
+  min-height: 200px;
+}
+
+.product-container {
+  display: inline-block;
+  text-align: center;
+  margin: 85px;
+}
+
+.product-container input[type="number"] {
+  width: 39px;
+  height: 56px;
+  font-size: 8px;
+  margin-top: 0px;
+}
+
+/* commander form */
+#commander_form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 32px;
+}
+
+#commander_form label {
+  color: #fff;
+  font-family: Syne;
+  font-size: 20px;
+  width: 400px;
+  line-height: 24px;
+
+}
+
+.form-left,
+.form-right {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+
+.form-right {
+  border-left: 1px solid #fff;
+  padding-left: 25px;
+}
+
+
+.wpcf7-form h2 {
+  font-family: "Syne", sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+
+.wpcf7 input.wpcf7-form-control:not([type=submit]),
+.wpcf7 textarea.wpcf7-form-control {
+  padding: 25px 16px;
+}
+
+.wpcf7-form-control.wpcf7-submit {
+  display: block;
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 15px;
+  width: 200px;
+}
+
+/*tablet responsiv */
+
+@media (max-width: 1024px) {}
+
+/* Mobile responsiv  */
+@media (max-width: 768px) {
+  .wpcf7-form {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .form-left,
+  .form-right {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .wpcf7-form::before {
+    display: none;
+  }
+
+  .form-left,
+  .form-right {
+    width: 100%;
+    border: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+  }
+
+
+  .form-right {
+    display: flex;
+    justify-content: center;
+    border-left: none;
+    margin-left: -20px;
+  }
+
+}
